@@ -1,9 +1,18 @@
-.hidden
-{
+.hidden {
   display: none;
 }
 
-button
-{
+button {
   margin-right: 8px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trackRef {
+  height: 200px;
+  width: auto;
 }
